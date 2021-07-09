@@ -3,6 +3,7 @@ import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { SampleProjectStack } from '../lib/sample_project-stack';
 
+//Main entry point for the application
 const app = new cdk.App();
 new SampleProjectStack(app, 'SampleProjectStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
